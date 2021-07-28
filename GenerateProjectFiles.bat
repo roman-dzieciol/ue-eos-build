@@ -1,0 +1,1 @@
+ call "..\..\Engine\Build\BatchFiles\GenerateProjectFiles.bat" EosBuild Win64 Development "..\..\Projects\EosBuild\EosBuild.uproject" -Platforms=Win64
