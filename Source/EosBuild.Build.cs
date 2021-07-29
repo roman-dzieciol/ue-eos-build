@@ -13,9 +13,11 @@ public class EosBuild : ModuleRules
 
 		PrivateDependencyModuleNames.Add("Core");
 		PrivateDependencyModuleNames.Add("Projects");
+		PrivateDependencyModuleNames.Add("Json");
+		
 		
 		//bEnableExceptions = true;
 
-		UnsafeTypeCastWarningLevel = WarningLevel.Warning;
+		//UnsafeTypeCastWarningLevel = WarningLevel.Warning;
 	}
 }

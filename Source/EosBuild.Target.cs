@@ -51,6 +51,6 @@ public class EosBuildTarget : TargetRules
 		GlobalDefinitions.Add("UE_WITH_SAVEPACKAGE=0");
 		GlobalDefinitions.Add("UE_WITH_CORE_REDIRECTS=0");
 		
-		GlobalDefinitions.Add("ALLOW_LOG_FILE=0");
+		GlobalDefinitions.Add("ALLOW_LOG_FILE=1");
 	}
 }
